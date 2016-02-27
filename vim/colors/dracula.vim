@@ -9,6 +9,7 @@
 "
 " @author Éverton Ribeiro <nuxlli@gmail.com>
 " @author Zeno Rocha <hi@zenorocha.com>
+" @author Extrante <extrante@gmail.com>
 
 set background=dark
 highlight clear
@@ -114,3 +115,11 @@ hi cssClassName ctermfg=84 ctermbg=NONE cterm=NONE guifg=#50fa7b guibg=NONE gui=
 hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bd93f9 guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=81 ctermbg=NONE cterm=NONE guifg=#6be5fd guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
+" Sign Column
+hi SignColumn guibg=NONE ctermbg=NONE
+
+" Signify highlighting
+hi SignifySignAdd     guibg=NONE guifg=#50fa7b ctermbg=NONE ctermfg=84
+hi SignifySignChange  guibg=NONE guifg=#bd93f9 ctermbg=NONE ctermfg=141
+hi SignifySignDelete  guibg=NONE guifg=#ff5555 ctermbg=NONE ctermfg=160
